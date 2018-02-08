@@ -6,15 +6,21 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>相册 | ly的博客</title>
+  <title>yilia添加Gitment实现评论功能 | ly的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="相册">
-<meta property="og:url" content="http://yoursite.com/photo/index.html">
+  <meta name="keywords" content="yilia - Gitment - Github">
+<meta property="og:type" content="article">
+<meta property="og:title" content="yilia添加Gitment实现评论功能">
+<meta property="og:url" content="http://yoursite.com/2018/02/08/yilia添加Gitment实现评论功能/index.html">
 <meta property="og:site_name" content="ly的博客">
-<meta property="og:updated_time" content="2018-02-08T06:47:50.292Z">
+<meta property="og:image" content="https://i.imgur.com/livgyva.jpg">
+<meta property="og:image" content="https://i.imgur.com/m4wLZ0I.png">
+<meta property="og:image" content="https://i.imgur.com/CwtMbRP.png">
+<meta property="og:image" content="https://i.imgur.com/8Dolv4J.png">
+<meta property="og:updated_time" content="2018-02-08T09:40:09.608Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="相册">
+<meta name="twitter:title" content="yilia添加Gitment实现评论功能">
+<meta name="twitter:image" content="https://i.imgur.com/livgyva.jpg">
   
     <link rel="alternative" href="/atom.xml" title="ly的博客" type="application/atom+xml">
   
@@ -152,20 +158,20 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="page-" class="article article-type-page " itemscope itemprop="blogPost">
+            <article id="post-yilia添加Gitment实现评论功能" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      相册
+      yilia添加Gitment实现评论功能
     </h1>
   
 
         
-        <a href="/photo/index.html" class="archive-article-date">
-  	<time datetime="2018-02-08T06:47:50.292Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-02-08</time>
+        <a href="/2018/02/08/yilia添加Gitment实现评论功能/" class="archive-article-date">
+  	<time datetime="2018-02-08T09:27:06.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-02-08</time>
 </a>
         
       </header>
@@ -178,11 +184,44 @@
 
     <!-- 目录内容 -->
 
+    <p class="show-toc-btn" id="show-toc-btn" onclick="showToc();" style="display:none">
+          <span class="btn-bg"></span>
+          <span class="btn-text">文章导航</span>
+          </p>
+	<div id="toc-article" class="toc-article">
+	    <span id="toc-close" class="toc-close" title="隐藏导航" onclick="showBtn();">×</span>
+		<strong class="toc-title">文章目录</strong>
+           <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#yilia添加Gitment实现评论功能"><span class="toc-number">1.</span> <span class="toc-text">yilia添加Gitment实现评论功能</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-安装gitment"><span class="toc-number">1.0.1.</span> <span class="toc-text">1.安装gitment</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-在github注册"><span class="toc-number">1.0.2.</span> <span class="toc-text">2.在github注册</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-打开主题目录下的-config-yml文件填写信息"><span class="toc-number">1.0.3.</span> <span class="toc-text">3.打开主题目录下的_config.yml文件填写信息</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-生成和提交"><span class="toc-number">1.1.</span> <span class="toc-text">4.生成和提交</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-效果图"><span class="toc-number">1.2.</span> <span class="toc-text">5.效果图</span></a></li></ol></li></ol>
+         </div>
+   <script type="text/javascript">
+	function showToc(){
+		var toc_article = document.getElementById("toc-article");
+		var show_toc_btn = document.getElementById("show-toc-btn");
+		toc_article.setAttribute("style","display:block");
+		show_toc_btn.setAttribute("style","display:none");
+		};
+	function showBtn(){
+		var toc_article = document.getElementById("toc-article");
+		var show_toc_btn = document.getElementById("show-toc-btn");
+		toc_article.setAttribute("style","display:none");
+		show_toc_btn.setAttribute("style","display:block");
+		};
+   </script>
+      
 <!-- 目录内容结束 -->
   
    <div class="article-entry" itemprop="articleBody">
       
-        <p> <link type="text/css" href="/fancyboxjquery.fancybox.css" rel="stylesheet"><br>   <div class="instagram"><section class="archives album"><ul class="img-box-ul"></ul></section><br></div><br> <script src="/js/photo.js"></script></p>
+        <p><img src="https://i.imgur.com/livgyva.jpg" alt=""></p>
+<a id="more"></a>
+<h1 id="yilia添加Gitment实现评论功能"><a href="#yilia添加Gitment实现评论功能" class="headerlink" title="yilia添加Gitment实现评论功能"></a>yilia添加Gitment实现评论功能</h1><h3 id="1-安装gitment"><a href="#1-安装gitment" class="headerlink" title="1.安装gitment"></a>1.安装gitment</h3><pre><code>$npm install gitment --save
+</code></pre><h3 id="2-在github注册"><a href="#2-在github注册" class="headerlink" title="2.在github注册"></a>2.在github注册</h3><pre><code>地址：https://github.com/settings/applications/new 
+</code></pre><p><img src="https://i.imgur.com/m4wLZ0I.png" alt=""></p>
+<pre><code>注册完获取Client ID和Client Secret
+</code></pre><h3 id="3-打开主题目录下的-config-yml文件填写信息"><a href="#3-打开主题目录下的-config-yml文件填写信息" class="headerlink" title="3.打开主题目录下的_config.yml文件填写信息"></a>3.打开主题目录下的_config.yml文件填写信息</h3><p><img src="https://i.imgur.com/CwtMbRP.png" alt=""></p>
+<h2 id="4-生成和提交"><a href="#4-生成和提交" class="headerlink" title="4.生成和提交"></a>4.生成和提交</h2><pre><code>$hexo g
+$hexo d
+</code></pre><h2 id="5-效果图"><a href="#5-效果图" class="headerlink" title="5.效果图"></a>5.效果图</h2><p><img src="https://i.imgur.com/8Dolv4J.png" alt=""></p>
 
       
 
@@ -222,6 +261,17 @@
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">yilia - Gitment - Github</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
       
 
       
@@ -272,7 +322,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/photo/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2018/02/08/yilia添加Gitment实现评论功能/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -284,6 +334,16 @@
 </article>
 
   
+<nav id="article-nav">
+  
+  
+    <a href="/2018/02/08/MarkDownPad-2-破解教程/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">MarkDownPad 2 破解教程</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -297,6 +357,19 @@
             </div>
         </div>
         
+        
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#yilia添加Gitment实现评论功能"><span class="toc-number">1.</span> <span class="toc-text">yilia添加Gitment实现评论功能</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-安装gitment"><span class="toc-number">1.0.1.</span> <span class="toc-text">1.安装gitment</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-在github注册"><span class="toc-number">1.0.2.</span> <span class="toc-text">2.在github注册</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-打开主题目录下的-config-yml文件填写信息"><span class="toc-number">1.0.3.</span> <span class="toc-text">3.打开主题目录下的_config.yml文件填写信息</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-生成和提交"><span class="toc-number">1.1.</span> <span class="toc-text">4.生成和提交</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5-效果图"><span class="toc-number">1.2.</span> <span class="toc-text">5.效果图</span></a></li></ol></li></ol>
+                    </div>
+                </span>
+            </div>
+        </div>
         
     </div>
 </aside>
@@ -317,7 +390,7 @@
 <script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script>
 <script>
 var gitment = new Gitment({
-  id: "http://yoursite.com/photo/index.html",
+  id: "http://yoursite.com/2018/02/08/yilia添加Gitment实现评论功能/",
   owner: '1461665214',
   repo: 'lyblogs.github.io',
   oauth: {
@@ -354,7 +427,7 @@ gitment.render('gitment-ctn')
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
