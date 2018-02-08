@@ -15,7 +15,7 @@
 <meta property="og:url" content="http://yoursite.com/2018/02/08/SSH框架面试题/index.html">
 <meta property="og:site_name" content="ly的博客">
 <meta property="og:description" content="1.Hibernate工作原理及为什么要使用Hibernate？工作原理：    1.读取并解析配置文件    2.读取并解析映射信息，创建SessionFactory    3.打开Session    4.创建事务Transation    5.持久化操作    6.提交事务    7.关闭Session    8.关闭SesstionFactory 为什么要使用Hibernate（即它的优点">
-<meta property="og:updated_time" content="2018-02-08T04:22:05.478Z">
+<meta property="og:updated_time" content="2018-02-08T04:48:21.007Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="SSH框架面试题">
 <meta name="twitter:description" content="1.Hibernate工作原理及为什么要使用Hibernate？工作原理：    1.读取并解析配置文件    2.读取并解析映射信息，创建SessionFactory    3.打开Session    4.创建事务Transation    5.持久化操作    6.提交事务    7.关闭Session    8.关闭SesstionFactory 为什么要使用Hibernate（即它的优点">
@@ -172,6 +172,34 @@
         
       </header>
     
+    
+  <!-- 目录内容 -->
+        
+            <p class="show-toc-btn" id="show-toc-btn" onclick="showToc();" style="display:none">
+            <span class="btn-bg"></span>
+            <span class="btn-text">文章导航</span>
+            </p>
+            <div id="toc-article" class="toc-article">
+                <span id="toc-close" class="toc-close" title="隐藏导航" onclick="showBtn();">×</span>
+                <strong class="toc-title">文章目录</strong>
+                
+           </div>
+           <script type="text/javascript">
+            function showToc(){
+                var toc_article = document.getElementById("toc-article");
+                var show_toc_btn = document.getElementById("show-toc-btn");
+                toc_article.setAttribute("style","display:block");
+                show_toc_btn.setAttribute("style","display:none");
+                };
+            function showBtn(){
+                var toc_article = document.getElementById("toc-article");
+                var show_toc_btn = document.getElementById("show-toc-btn");
+                toc_article.setAttribute("style","display:none");
+                show_toc_btn.setAttribute("style","display:block");
+                };
+           </script>
+             
+        <!-- 目录内容结束 -->
     
  
 <div class="article-entry" itemprop="articleBody">
@@ -395,6 +423,19 @@
         </div>
         
         
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    目录，不存在的…
+                    </div>
+                </span>
+            </div>
+        </div>
+        
     </div>
 </aside>
 
@@ -411,9 +452,7 @@
   
 
 
-  <!-- 目录内容 -->
-             
-        <!-- 目录内容结束 -->
+
           </div>
         </div>
       </div>
@@ -512,10 +551,6 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">java</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">并发</a>
               </li>
              
               <li class="article-tag-list-item">
