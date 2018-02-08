@@ -459,6 +459,22 @@ opensessioninview是在web层写了一个filter来打开和关闭session，这�
   
 
   
+  <div id="gitment-ctn"></div> 
+<link rel="stylesheet" href="//imsun.github.io/gitment/style/default.css">
+<script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: "http://yoursite.com/2018/02/08/SSH框架面试题/",
+  owner: '1461665214',
+  repo: 'lyblogs.github.io',
+  oauth: {
+    client_id: '266853a20e5ccae77328',
+    client_secret: '08443aed29131609a1b97960216438f3ffdb70e4',
+  },
+})
+gitment.render('gitment-ctn')
+</script>
+  
 
 
 
